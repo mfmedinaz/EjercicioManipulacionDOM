@@ -1,12 +1,38 @@
 <!DOCTYPE html>
-<head><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"></head>
+<head>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+    crossorigin="anonymous"
+  />
+</head>
 <html>
-<body>
+  <body>
+    <h1>Events</h1>
+    <table class="table table-bordered" id="theTable">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Events</th>
+          <th scope="col">Squirrel</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <h1>Correlation of Events</h1>
+    <table class="table table-bordered" id="theCorrelationsTable">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Event</th>
+          <th scope="col">Correlation</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
     <script src="main.js"></script>
-
-<p id="p1">Hello World!</p>
-
-</body>
-
-
+    
+  </body>
 </html>
